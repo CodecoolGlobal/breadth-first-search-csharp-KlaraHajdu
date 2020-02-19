@@ -6,7 +6,8 @@ namespace BFS_c_sharp
 {
     public class RandomDataGenerator
     {
-        private Random rng = new Random(1234);
+        private Random rng = new Random(1234); // ez teljesen determinisztikussá teszi?!?!?
+        //private Random rng = new Random();
         private String[] firstNames = {
             "Inez", "Emery", "Virginia", "Charissa", "Tyrone", "Ayanna", "Jena", "Ora",
             "Cooper", "Gareth", "Karleigh", "Aladdin", "Arden", "Pearl", "Mariko", "Hadley",
